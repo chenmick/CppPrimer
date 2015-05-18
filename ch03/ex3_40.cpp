@@ -8,7 +8,7 @@ int main()
     const char* cs1 = "Wangyue";
     const char* cs2 = "Pezy";
     
-    size_t size = strlen(cs1) + strlen(cs2) + 1;
+    size_t size = strlen(cs1) + strlen(cs2) + 2;
     char* cs3 = new char(size);
     
     strcpy(cs3, cs1);
